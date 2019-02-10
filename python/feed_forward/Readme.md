@@ -28,7 +28,7 @@ The class is "losely" programmed. No explicit method extracation or good isolati
 
 
 
-##please look at the following scheme in editor mode
+## please look at the following scheme in editor mode
 
 input features              
 
