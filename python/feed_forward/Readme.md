@@ -1,18 +1,6 @@
 # Feed-Forward Neural Network written in Python 
 The neural network is build up using a single perceptron receiving three binary input values (+weights)
 
-1
---w1-->   |---------------|
-1         | SUM(wi*xi)    |
---w2-->   |         relU->|--------> y^----|
-0         |               |                |
---w3-->   |               |                | error = expected_output - y^ (actual_output)
-  /\       ---------------                 |
-  --------------<-------------<-------------
-              readjust (backpropagation)
-
-
-
 Two activation functions are implemented (relU and sigmoid) and can be used.
 
 
@@ -39,3 +27,17 @@ test with the input:
 The class is "losely" programmed. No explicit method extracation or good isolation / pep8 style.
 
 
+
+
+
+input features              
+
+1           Perceptron
+--w1-->   |---------------| output 
+1         | SUM(wi*xi)    |
+--w2-->   |         relU->|--------> y^----|
+0         |               |                |
+--w3-->   |               |                | error = expected_output - y^ (actual_output)
+  /\       ---------------                 |
+  --------------<-------------<-------------
+              readjust (backpropagation)
